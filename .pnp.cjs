@@ -33,6 +33,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vitejs/plugin-react", "virtual:80f5746635c934c59d66dc35ffbc8f9bd90a0cd18bf324e9b7cb106231ac600b51b0fde766004c28a6fa44e26a76349b1c8285a51d8e3c510c82c267c5e09649#npm:3.0.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:80f5746635c934c59d66dc35ffbc8f9bd90a0cd18bf324e9b7cb106231ac600b51b0fde766004c28a6fa44e26a76349b1c8285a51d8e3c510c82c267c5e09649#npm:18.2.0"],\
+            ["scanbot-web-sdk", "npm:2.9.2"],\
             ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=d73830"],\
             ["vite", "virtual:80f5746635c934c59d66dc35ffbc8f9bd90a0cd18bf324e9b7cb106231ac600b51b0fde766004c28a6fa44e26a76349b1c8285a51d8e3c510c82c267c5e09649#npm:4.0.1"]\
           ],\
@@ -1890,6 +1891,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["scanbot-web-sdk", [\
+        ["npm:2.9.2", {\
+          "packageLocation": "./.yarn/cache/scanbot-web-sdk-npm-2.9.2-93c218a023-9fccff8c21.zip/node_modules/scanbot-web-sdk/",\
+          "packageDependencies": [\
+            ["scanbot-web-sdk", "npm:2.9.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["scanbot-web-sdk-vite-demo", [\
         ["workspace:.", {\
           "packageLocation": "./",\
@@ -1900,6 +1910,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vitejs/plugin-react", "virtual:80f5746635c934c59d66dc35ffbc8f9bd90a0cd18bf324e9b7cb106231ac600b51b0fde766004c28a6fa44e26a76349b1c8285a51d8e3c510c82c267c5e09649#npm:3.0.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:80f5746635c934c59d66dc35ffbc8f9bd90a0cd18bf324e9b7cb106231ac600b51b0fde766004c28a6fa44e26a76349b1c8285a51d8e3c510c82c267c5e09649#npm:18.2.0"],\
+            ["scanbot-web-sdk", "npm:2.9.2"],\
             ["typescript", "patch:typescript@npm%3A4.9.4#~builtin<compat/typescript>::version=4.9.4&hash=d73830"],\
             ["vite", "virtual:80f5746635c934c59d66dc35ffbc8f9bd90a0cd18bf324e9b7cb106231ac600b51b0fde766004c28a6fa44e26a76349b1c8285a51d8e3c510c82c267c5e09649#npm:4.0.1"]\
           ],\

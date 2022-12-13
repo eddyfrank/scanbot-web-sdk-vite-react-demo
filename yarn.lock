@@ -1641,10 +1641,18 @@ __metadata:
     "@vitejs/plugin-react": ^3.0.0
     react: ^18.2.0
     react-dom: ^18.2.0
+    scanbot-web-sdk: ^2.9.2
     typescript: ^4.9.3
     vite: ^4.0.0
   languageName: unknown
   linkType: soft
+
+"scanbot-web-sdk@npm:^2.9.2":
+  version: 2.9.2
+  resolution: "scanbot-web-sdk@npm:2.9.2"
+  checksum: 9fccff8c211baa1d8efbb71ff4796b90aea44d169836fdc1d9c770743242222d46332ba80fecdde667609a3c6a51ee05769689714ff0b1254e271c24b0cb179c
+  languageName: node
+  linkType: hard
 
 "scheduler@npm:^0.23.0":
   version: 0.23.0
